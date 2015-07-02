@@ -1,0 +1,64 @@
+#accordion {
+  background-color: #eeeeee !important;
+  border: 1px solid #eeeeee;
+}
+#accordion h3 {
+ background-color:#38cc70; 
+  font-weight:700; 
+  padding:1.5em;
+  display:block;
+  text-decoration:none;
+  cursor: pointer;
+  color:#fff;
+  transition:background-color 0.5s ease-in-out;
+  border-bottom:1px solid darken(#38cc70, 5%);
+  &:before {
+   content: "+";
+   font-size:1.5em;
+   line-height:0.5em;
+   float:left; 
+   transition: transform 0.3s ease-in-out;
+  }
+  &:hover {
+    background-color:darken(#38cc70, 10%);
+  }
+}
+.btnadd {
+  background-color: #07bf4a !important;
+  color: #f7f9f8 !important;
+  border: none !important;
+  padding-top: 2px !important;
+  font-size: 14px !important;
+}
+
+.btnadd .dashicons{
+    padding-top: 3px !important;
+  font-size: 18px !important;
+  font-weight: inherit !important;
+}
+
+.btndelete {
+  background-color: #D33907 !important;
+  color: #f7f9f8 !important;
+  border: none !important;
+  padding-top: 2px !important;
+  font-size: 14px !important;
+}
+
+.btndelete .dashicons{
+    padding-top: 3px !important;
+  font-size: 18px !important;
+  font-weight: inherit !important;
+}
+
+.pull-right{
+  float: right;
+}
+
+.clear-fix{
+  clear: both;
+}
+
+#wpfooter {
+  display: none !important;
+}
